@@ -25,7 +25,7 @@
   box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
 }
 
-.input-container {
+.inputs-container {
   min-height: 280px;
 
 }
@@ -50,10 +50,10 @@ label {
 }
 
 input, textarea {
-  padding: .6rem;
+  padding: 0.6rem;
   border: none;
   border-radius: 3px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 textarea {
@@ -74,10 +74,11 @@ textarea {
   gap: 0.5rem;
   display: flex;
   align-items: center;
+  border: 2px solid transparent;
   border-radius: 3px;
   background-color: #DFDFDF;
   cursor: pointer;
-  border: none;
+
   transition: 0.3s;
 }
 
